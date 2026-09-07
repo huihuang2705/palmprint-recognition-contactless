@@ -26,7 +26,8 @@ This project implements a complete recognition pipeline including:
 The input palm image is processed to extract the Region of Interest (ROI).  
 The ROI is then divided into nine overlapping patches before being passed to the CNN.
 
-![Palmprint preprocessing pipeline](assets/roi_pipeline.png)
+X
+<img width="574" height="227" alt="image" src="https://github.com/user-attachments/assets/6f75a173-44ed-47c4-88fc-5fece461e0bb" />
 
 ---
 
