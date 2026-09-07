@@ -26,8 +26,11 @@ This project implements a complete recognition pipeline including:
 The input palm image is processed to extract the Region of Interest (ROI).  
 The ROI is then divided into nine overlapping patches before being passed to the CNN.
 
-X
-<img width="574" height="227" alt="image" src="https://github.com/user-attachments/assets/6f75a173-44ed-47c4-88fc-5fece461e0bb" />
+Base
+<img width="1245" height="230" alt="image" src="https://github.com/user-attachments/assets/a0ce254e-bb87-44da-8826-0eb3fe119daa" />
+
+ROI Extract
+<img width="1194" height="259" alt="image" src="https://github.com/user-attachments/assets/8979d914-ab09-46d6-8cfc-fcec11bb525b" />
 
 ---
 
@@ -38,6 +41,9 @@ The recognition model is based on the SYEnet CNN architecture.
 The network processes palm patches and generates an 84-dimensional feature embedding used to represent the biometric characteristics of each palm.
 
 These embeddings can then be used for palmprint identification and few-shot recognition.
+
+Patches
+<img width="882" height="642" alt="image" src="https://github.com/user-attachments/assets/b36c0f70-40a7-4d79-a510-640126497d1c" />
 
 ---
 
